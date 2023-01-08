@@ -1,3 +1,14 @@
+/* Global css */
+
+h2 {
+    font: Helvetica, "Times New Roman", sans-serif;
+    font-size: 34px;
+    color: deepskyblue;
+    background-color: azure;
+}
+
+/* Exercices 1 and 2 */
+
 /*div {
     background-color: red;
     color: white;
@@ -20,4 +31,23 @@
     background-color: #008000;
     font-size: 24px;
     text-decoration: bold;
+}
+
+/* Exercice 3 */
+
+.first-element {
+    background-color: black;
+    color: white;
+}
+.second-element {
+    background-color: #ffff00;
+    color: black;
+}
+.both {
+    font-size: 28px;
+    font: Helvetica, "Times New Roman", sans-serif;
+    float: left;
+    padding: 5px;
+    border: solid 3px grey; 
+    margin: 3px;
 }
