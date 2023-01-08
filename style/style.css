@@ -62,3 +62,10 @@ h2 {
     height: 400px;
     width: 200px;
 }
+
+/* Exercice 5 */
+
+.container p {
+    background-color: yellow;
+    color: red;
+}
