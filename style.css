@@ -1,5 +1,12 @@
 body{
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
+  margin:auto;
+}
+
+h1,h2 {
+  background-color: brown;
+  margin:auto;
+  padding: 15px;
 }
 
 .para,
@@ -40,3 +47,27 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+ul li {
+  list-style-type: none;
+}
+
+.li {
+  background-color: yellow;  
+  padding: 10px;
+}
+
+.li.even {
+  background-color: aliceblue;
+  color: white;
+  list-style-type: none;
+}
+
+.li a:hover {
+  color: red;
+}
+
+.li a:after {
+  color: black;
+}
+
