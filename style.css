@@ -1,73 +1,20 @@
-body{
-  font-family:Arial, Helvetica, sans-serif;
-  margin:auto;
+/* flexbox */
+
+.flex-container {
+  display: flex; 
 }
 
-h1,h2 {
-  background-color: brown;
-  margin:auto;
-  padding: 15px;
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  display: flex; /* this flex item is also a flex container now */
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  flex: 1;
 }
-
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.flex-item-one {
+  flex:1;
+  background: pink;
+  height: 100px;
+  flex: 0.25;
 }
-
-.para.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
-}
-
-.button.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-.li {
-  background-color: yellow;  
-  padding: 10px;
-}
-
-.li.even {
-  background-color: aliceblue;
-  color: white;
-  list-style-type: none;
-}
-
-.li a:hover {
-  color: red;
-}
-
-.li a:after {
-  color: black;
-}
-
