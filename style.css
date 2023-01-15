@@ -1,20 +1,66 @@
 /* flexbox */
 
-.flex-container {
-  display: flex; 
+.body-flex-container {
+  border: 4px solid red;
+  height: 500px;
+  padding: 10px;
 }
 
+.flex-container {
+  display: flex; 
+  flex: 1;
+  height: 200px;
+  background-color: greenyellow;
+  border: 4px solid green;
+  padding: 10px;
+}
+
+.flex-container-2 {
+  display: flex; 
+  flex: 1;
+  height: 200px;
+  background-color: greenyellow;
+  border: 4px solid green;
+  padding: 10px;
+}
+
+
 /* this selector selects all divs inside of .flex-container */
-.flex-container div {
-  display: flex; /* this flex item is also a flex container now */
+.one {
+  /* this flex item is also a flex container now */
+  display: flex;
   background: peachpuff;
   border: 4px solid brown;
-  height: 100px;
+  flex: 1;
+}
+.two {
+  /* this flex item is also a flex container now */
+  display: flex;
+  background: peachpuff;
+  border: 4px solid brown;
+  flex: 1;
+}
+.three {
+  /* this flex item is also a flex container now */
+  display: flex;
+  background: peachpuff;
+  border: 4px solid brown;
   flex: 1;
 }
 .flex-item-one {
-  flex:1;
-  background: pink;
-  height: 100px;
-  flex: 0.25;
+  background-color: pink;
+  flex: 1;
+  border: 4px solid brown;
 }
+.flex-item-two {
+  background-color: aquamarine;
+  flex: 1;
+  border: 4px solid brown;
+}
+.flex-item-three {
+  background-color: violet;
+  flex: 1;
+  border: 4px solid brown;
+}
+
+/* container 2 */
